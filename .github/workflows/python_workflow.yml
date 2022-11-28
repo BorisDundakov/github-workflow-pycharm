@@ -1,5 +1,5 @@
 jobs:
-  Run python file:
+  Run-python-file:
     runs-on: ubuntu-latest
     steps:
       - name: PythonScript@@
