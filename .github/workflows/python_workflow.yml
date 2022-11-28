@@ -1,0 +1,11 @@
+jobs:
+  Run python file:
+    runs-on: ubuntu-latest
+    steps:
+      - name: PythonScript@@
+        inputs:
+        scriptSource: 'inline'
+        with:
+          script: |
+              import main
+              print(main.print_reversed('Hello'))
